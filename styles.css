@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    background-color: #fffaf0;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.3em;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.flower-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.flower-image:hover {
+    transform: scale(1.05);
+}
+
+.dedication-button {
+    padding: 12px 30px;
+    font-size: 1.2em;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dedication-button:hover {
+    background-color: #ff8800;
+    transform: translateY(-5px);
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf5e6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+    background-image: url('https://example.com/decoracion-flores.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fff8dc 30%, #ffeb3b 100%);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231001/pngtree-yellow-tulips-in-the-grass-field-image_13329411.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+    position: relative;
+}
+
+.message {
+    background-image: url('https://example.com/patron-flores.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.3em;
+    color: #333;
+}
+.message {
+    background-color: #faf3e0;
+    background-image: url('https://example.com/textura-ligera.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.3em;
+    color: #333;
+}
+/* El estilo del cuerpo de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Evitar scroll */
+}
+
+/* Contenedor de la tarjeta */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color: #fffaf0;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+    z-index: 1; /* Asegura que la tarjeta esté encima de la lluvia de flores */
+}
+
+.flower-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+/* Estilo para las flores que caen */
+#flower-rain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.flower {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    z-index: 0;
+    pointer-events: none;
+}
